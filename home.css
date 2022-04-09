@@ -1,0 +1,424 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+.home{
+        background-image: linear-gradient( to right, #02a798, #009688, #009688);
+}
+/*--------------------------------------------------------NAV--------------------------------------------------------------*/
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 2.3em;
+}
+
+.navigation{
+        display: flex;
+        justify-content: space-between;
+        color: rgb(226, 226, 226);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 11em;
+    font-weight: bold;
+} 
+.list a{
+        color: rgb(226, 226, 226);
+        text-decoration: none;
+}
+
+li h3{
+    font-size: 22px;
+    color: rgb(252, 247, 247);
+}
+
+.icons{
+    display: flex;
+    list-style: none;
+    gap:2em;
+}
+
+
+/*--------------------------------------------------------LANDING PAGE--------------------------------------------------------------*/
+
+.landing-page-image{
+  width: 32%;
+}
+
+.landing-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-text{
+      width: 60% ;
+      margin-top: 5%;
+      margin-left: 5%;
+      color: rgb(226, 226, 226);
+}
+
+.landing-text h1{
+    font-size: 110px;
+    font-weight:lighter;
+    margin-bottom: 2%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.landing-text h2{
+       font-size: 50px;
+       font-weight:lighter; 
+       margin-bottom: 3%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landing-text p{
+    font-size:13.5px;
+    line-height: 2;
+    margin-bottom: 2%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landing-page button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+.landing-page button a{
+    color: #059286;
+    text-decoration: none;
+}
+/*--------------------------------------------------------SHOPPAGE---------------------------------------------------------*/
+.subtitle{
+    display: flex;
+    justify-content: center;
+    gap:3em;
+}
+
+.subtitle h1{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+
+
+.newArrivals-row-one{
+     margin-left: 5%;
+     --gap: 10px;
+     --num-cols: 4;
+     /* --row-height: 250px; */
+     box-sizing: border-box;
+     padding: var(--gap);
+     display: grid;
+     grid-template-columns: repeat(var(--num-cols), 1fr);
+     /* grid-auto-rows: var(--row-height); */
+     gap: var(--gap);
+}
+
+.box h4{
+ width: 200px;
+ text-align: center;
+line-height: 1.5;
+}
+
+.box span{
+    text-decoration: line-through;
+}
+.newArrivals-row-one img{
+    width: 200px;
+}
+
+
+.newArrivals-row-two{
+     margin-left: 5%;
+     margin-top: 3%;
+     --gap: 10px;
+     --num-cols: 4;
+     /* --row-height: 300px; */
+     box-sizing: border-box;
+     padding: var(--gap);
+     display: grid;
+     grid-template-columns: repeat(var(--num-cols), 1fr);
+     /* grid-auto-rows: var(--row-height); */
+     gap: var(--gap);
+}
+
+.newArrivals-row-two img{
+    width: 200px;
+}
+
+.collection{
+    background-color: #fafafa;
+    display: flex;
+    padding: 10px;
+}
+
+.collection-image{
+    width: 30%;
+}
+
+.collection-text{
+        width: 60%;
+        margin-left: 2%;
+        align-self: center;
+}
+
+.collection-text h1{ 
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+.collection-text p{
+    font-size:14.5px;
+    word-spacing: 0.2em;
+    line-height: 2;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.collection-text button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #009688;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+}
+
+.collection-text-two{
+        width: 65%;
+        margin-left: 3%;
+        align-self: center;
+}
+
+
+.collection-text-two h1{ 
+    font-size: 72px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+.collection-text-two p{
+    font-size:14.5px;
+    word-spacing: 0.2em;
+    line-height: 2;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.collection-text-two button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #009688;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+}
+
+.collection-image-two{
+    width: 30%;
+}
+
+.blog-subtitle{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.blog-subtitle h2{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.blog-subtitle p{
+    font-size:14.5px;
+    word-spacing: 0.2em;
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blog-stories{
+    display: flex;
+    margin: 2% 3% 0% 3%;
+}
+.story{
+    display: flex;
+}
+.date h4{
+    margin-left: 45%;
+font-size: 18px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.date h1{
+font-size: 100px;
+margin-left: 10%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blog-text{
+ margin-left: 5%;
+text-align: justify;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 5%;
+
+}
+.blog-text h1{
+ font-size: 25px;
+margin-bottom: 5%;
+}
+
+.blog-text p{
+ margin-bottom: 8%;
+ font-size:14.5px;
+ word-spacing: 0.2em;
+ line-height: 1.5;
+ width: 95%;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5% 0% 5%;
+    margin-top: 2%;
+}
+.one input{
+    width:350px;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+.two{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1%;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+}
+
+   
+ /*=======================================================MEDIAQUERIES==========================================================*/
+ 
+ @media only screen and (max-width: 480px) and (min-width: 320px) {
+     html,
+     body {
+         width: 140%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+ @media only screen and (max-width: 768px) and (min-width: 481px) {
+     html,
+     body {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+ @media only screen and (max-width: 1024px) and (min-width: 769px) {
+     html,
+     body {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+/* .footer{
+    margin-top: 5%;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;  
+     background-color: #fafafa;
+    padding: 20px;
+
+}
+.subscribe h3{
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    
+}
+
+.subscribe input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.subscribe button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #009688;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 3% 0% 3%; 
+    line-height: 2.5;
+    margin-bottom: 1%;
+
+}
+
+.info ul{
+    list-style: none;
+}
+.info button{
+     width: 100px;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: #009688;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+    margin-top: 7%;
+}
+
+
+.copywright{
+    padding: 10px;
+}
+.copywright ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+
+} */
