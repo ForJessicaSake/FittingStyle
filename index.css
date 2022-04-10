@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -589,71 +589,69 @@ ul {
     .newArrivals-row-two img {
         width: 300px;
     }
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
-    html,
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
+    @media only screen and (max-width: 1024px) and (min-width: 769px) {
+        html,
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .home {
+            background-image: linear-gradient( to right, #009688, #009688);
+        }
+        .landing-page {
+            display: flex;
+            flex-direction: column;
+        }
+        .landing-page p {
+            width: 135%;
+            font-size: 18px;
+        }
+        .landing-page button {
+            margin-top: 5%;
+        }
+        .landing-page-image {
+            margin-top: 3%;
+            align-self: center;
+            width: 500px;
+        }
+        .collection {
+            display: flex;
+            flex-direction: column;
+        }
+        .collection-image {
+            margin-top: 3%;
+            align-self: center;
+            width: 400px;
+        }
+        .collection-text h1 {
+            font-size: 80px;
+            margin-top: 4%;
+            text-align: center;
+            width: 150%;
+        }
+        .collection-text p {
+            width: 159%;
+            font-size: 19px;
+        }
+        .collection-image-two {
+            margin-top: 3%;
+            align-self: center;
+            width: 400px;
+        }
+        .collection-text-two h1 {
+            font-size: 80px;
+            margin-top: 4%;
+            text-align: center;
+            width: 155%;
+        }
+        .collection-text-two p {
+            width: 145%;
+            font-size: 19px;
+        }
+        .box h4 {
+            font-size: 23px;
+            font-weight: normal;
+        }
     }
-    .home {
-        background-image: linear-gradient( to right, #009688, #009688);
-    }
-    .landing-page {
-        display: flex;
-        flex-direction: column;
-    }
-    .landing-page p {
-        width: 135%;
-        font-size: 18px;
-    }
-    .landing-page button {
-        margin-top: 5%;
-    }
-    .landing-page-image {
-        margin-top: 3%;
-        align-self: center;
-        width: 500px;
-    }
-    .collection {
-        display: flex;
-        flex-direction: column;
-    }
-    .collection-image {
-        margin-top: 3%;
-        align-self: center;
-        width: 400px;
-    }
-    .collection-text h1 {
-        font-size: 80px;
-        margin-top: 4%;
-        text-align: center;
-        width: 150%;
-    }
-    .collection-text p {
-        width: 159%;
-        font-size: 19px;
-    }
-    .collection-image-two {
-        margin-top: 3%;
-        align-self: center;
-        width: 400px;
-    }
-    .collection-text-two h1 {
-        font-size: 80px;
-        margin-top: 4%;
-        text-align: center;
-        width: 155%;
-    }
-    .collection-text-two p {
-        width: 145%;
-        font-size: 19px;
-    }
-    .box h4 {
-        font-size: 23px;
-        font-weight: normal;
-    }
-}
