@@ -400,6 +400,9 @@
          align-self: center;
          width: 400px;
      }
+     .big-box {
+         padding-left: 0px;
+     }
      .collection {
          display: flex;
          flex-direction: column;
@@ -509,6 +512,9 @@
          align-self: center;
          width: 500px;
      }
+     .big-box {
+         padding-left: 0px;
+     }
      .display {
          width: 95%;
          margin-left: 10%;
@@ -606,6 +612,9 @@
          margin-top: 3%;
          align-self: center;
          width: 500px;
+     }
+     .big-box {
+         padding-left: 10px;
      }
      .collection {
          display: flex;
