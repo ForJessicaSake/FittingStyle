@@ -109,6 +109,10 @@
      font-size: 18px;
  }
  
+ .big-box {
+     padding-left: 120px;
+ }
+ 
  .display {
      width: 95%;
      margin-left: 4%;
@@ -338,7 +342,7 @@
  }
  
  .middle {
-     font-family: cursive;
+     font-family: monospace;
      font-size: 20px;
      text-align: center;
      margin-top: 2%;

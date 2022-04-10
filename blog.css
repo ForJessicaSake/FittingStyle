@@ -60,7 +60,7 @@
         }
         
         .landing-text h1 {
-            font-size: 105px;
+            font-size: 80px;
             font-weight: lighter;
         }
         
@@ -73,7 +73,7 @@
             color: white;
             font-weight: bold;
             border: 0px;
-            margin-top: 10%;
+            margin-top: 7%;
         }
         
         .landing-page button a {
@@ -201,7 +201,7 @@
         }
         
         .middle {
-            font-family: cursive;
+            font-family: monospace;
             font-size: 20px;
             text-align: center;
             margin-top: 2%;
@@ -245,7 +245,7 @@
                 flex-direction: column;
             }
             .landing-text {
-                width: 100%;
+                width: 96%;
             }
             .landing-page-image {
                 align-self: center;
@@ -272,9 +272,10 @@
             .landing-page {
                 display: flex;
                 flex-direction: column;
+                padding-top: 5%;
             }
             .landing-text {
-                width: 100%;
+                width: 90%;
             }
             .landing-page-image {
                 align-self: center;
@@ -304,9 +305,10 @@
             .landing-page {
                 display: flex;
                 flex-direction: column;
+                margin-top: 5%;
             }
             .landing-text {
-                width: 100%;
+                width: 75%;
             }
             .landing-page-image {
                 align-self: center;
