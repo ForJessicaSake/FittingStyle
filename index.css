@@ -176,7 +176,7 @@ li h3 {
 .collection-text {
     width: 60%;
     margin-left: 2%;
-    /* align-self: center; */
+    margin-top: 12%;
 }
 
 .collection-text h1 {
@@ -207,7 +207,7 @@ li h3 {
 .collection-text-two {
     width: 65%;
     margin-left: 3%;
-    /* align-self: center; */
+    margin-top: 10%;
 }
 
 .collection-text-two h1 {
