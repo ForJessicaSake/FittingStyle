@@ -475,6 +475,9 @@
      .newArrivals-row-two img {
          width: 300px;
      }
+     .footer {
+         padding: 15px;
+     }
  }
  
  @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -584,6 +587,9 @@
      .newArrivals-row-two img {
          width: 300px;
      }
+     .footer {
+         padding: 15px;
+     }
  }
  
  @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -653,5 +659,8 @@
      .box h4 {
          font-size: 23px;
          font-weight: normal;
+     }
+     .footer {
+         padding: 20px;
      }
  }

@@ -251,6 +251,9 @@
                 align-self: center;
                 width: 350px;
             }
+            .footer {
+                padding: 15px;
+            }
         }
         
         @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -282,7 +285,7 @@
                 width: 450px;
             }
             .footer {
-                padding: 5%;
+                padding: 25px;
             }
         }
         
@@ -315,6 +318,6 @@
                 width: 500px;
             }
             .footer {
-                padding: 2%;
+                padding: 20px;
             }
         }
