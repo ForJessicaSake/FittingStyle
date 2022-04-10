@@ -387,12 +387,12 @@ ul {
     .home {
         background-image: linear-gradient( to right, #009688, #009688);
     }
-    .icons {
+    .list {
         display: flex;
         list-style: none;
         gap: 5em;
     }
-    .list {
+    .icons {
         display: none;
     }
     .landing-page {
@@ -493,13 +493,13 @@ ul {
         padding: 0;
         overflow-x: hidden;
     }
-    .list {
+    .icons {
         display: none;
     }
     .home {
         background-image: linear-gradient( to right, #009688, #009688);
     }
-    .icons {
+    .list {
         display: flex;
         list-style: none;
         gap: 5em;
