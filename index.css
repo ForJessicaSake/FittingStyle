@@ -297,7 +297,6 @@ li h3 {
 .blog-text p {
     margin-bottom: 8%;
     font-size: 14.5px;
-    word-spacing: 0.2em;
     line-height: 1.5;
     width: 95%;
 }
@@ -388,12 +387,15 @@ ul {
     .home {
         background-image: linear-gradient( to right, #009688, #009688);
     }
+    .list {
+        display: none;
+    }
     .landing-page {
         display: flex;
         flex-direction: column;
     }
     .landing-page p {
-        width: 135%;
+        width: 138%;
         font-size: 17px;
     }
     .landing-page button {
@@ -420,7 +422,7 @@ ul {
         width: 150%;
     }
     .collection-text p {
-        width: 150%;
+        width: 156%;
         font-size: 18px;
     }
     .collection-image-two {
@@ -432,10 +434,10 @@ ul {
         font-size: 80px;
         margin-top: 4%;
         text-align: center;
-        width: 150%;
+        width: 156%;
     }
     .collection-text-two p {
-        width: 140%;
+        width: 145%;
         font-size: 18px;
     }
     .display {
@@ -486,6 +488,9 @@ ul {
         padding: 0;
         overflow-x: hidden;
     }
+    .list {
+        display: none;
+    }
     .home {
         background-image: linear-gradient( to right, #009688, #009688);
     }
@@ -494,7 +499,7 @@ ul {
         flex-direction: column;
     }
     .landing-page p {
-        width: 135%;
+        width: 138%;
         font-size: 19px;
     }
     .landing-page button {
@@ -540,14 +545,14 @@ ul {
         font-size: 80px;
         margin-top: 4%;
         text-align: center;
-        width: 150%;
+        width: 157%;
     }
     .collection-text p {
         width: 155%;
         font-size: 19px;
     }
     .collection-image-two {
-        margin-top: 3%;
+        margin-top: 2%;
         align-self: center;
         width: 400px;
     }
@@ -558,7 +563,7 @@ ul {
         width: 155%;
     }
     .collection-text-two p {
-        width: 140%;
+        width: 145%;
         font-size: 19px;
     }
     .box h4 {
@@ -619,7 +624,7 @@ ul {
         width: 150%;
     }
     .collection-text p {
-        width: 155%;
+        width: 159%;
         font-size: 19px;
     }
     .collection-image-two {
@@ -634,7 +639,7 @@ ul {
         width: 155%;
     }
     .collection-text-two p {
-        width: 140%;
+        width: 145%;
         font-size: 19px;
     }
     .box h4 {
