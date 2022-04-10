@@ -387,6 +387,11 @@ ul {
     .home {
         background-image: linear-gradient( to right, #009688, #009688);
     }
+    .icons {
+        display: flex;
+        list-style: none;
+        gap: 5em;
+    }
     .list {
         display: none;
     }
@@ -493,6 +498,11 @@ ul {
     }
     .home {
         background-image: linear-gradient( to right, #009688, #009688);
+    }
+    .icons {
+        display: flex;
+        list-style: none;
+        gap: 5em;
     }
     .landing-page {
         display: flex;
