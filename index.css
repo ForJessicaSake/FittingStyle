@@ -390,7 +390,7 @@ ul {
     .list {
         display: flex;
         list-style: none;
-        width: 65%;
+        gap: 5em;
     }
     .icons {
         display: none;
@@ -502,7 +502,7 @@ ul {
     .list {
         display: flex;
         list-style: none;
-        width: 60%;
+        gap: 5em;
     }
     .landing-page {
         display: flex;
