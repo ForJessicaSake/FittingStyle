@@ -2,11 +2,11 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: cursive;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
         .home {
-            background-color: black;
+            background-color: #fafafa;
         }
         /*--------------------------------------------------------NAV--------------------------------------------------------------*/
         
@@ -44,7 +44,7 @@
         /*--------------------------------------------------------LANDING PAGE--------------------------------------------------------------*/
         
         .landing-page-image {
-            width: 25%;
+            width: 22%;
         }
         
         .landing-page {
@@ -56,26 +56,28 @@
             width: 60%;
             margin-top: 5%;
             margin-left: 5%;
-            color: white;
+            color: black;
         }
         
         .landing-text h1 {
-            font-size: 90px;
+            font-size: 105px;
             font-weight: lighter;
         }
         
         .landing-page button {
+            margin-left: 1%;
             width: 120px;
             padding: 10px;
             border-radius: 5px;
-            background-color: white;
+            background-color: #059286;
+            color: white;
             font-weight: bold;
             border: 0px;
-            margin-top: 5%;
+            margin-top: 10%;
         }
         
         .landing-page button a {
-            color: #059286;
+            color: white;
             text-decoration: none;
         }
         /*--------------------------------------------------------BLOGPAGE--------------------------------------------------------------*/
@@ -220,6 +222,7 @@
             display: flex;
             gap: 4em;
         }
+        /*--------------------------------------------------------MEDIA QUERIES---------------------------------------------------------*/
         
         @media only screen and (max-width: 480px) and (min-width: 320px) {
             html,
