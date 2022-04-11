@@ -22,8 +22,11 @@
         .list {
             display: flex;
             list-style: none;
-            gap: 5em;
             font-weight: bold;
+        }
+        
+        li {
+            margin: 0em 0.5em 0em 0.5em;
         }
         
         .list a {

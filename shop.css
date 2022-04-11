@@ -26,6 +26,10 @@
     font-weight: bold;
 }
 
+li {
+    margin: 0em 0.5em 0em 0.5em;
+}
+
 .list a {
     color: rgb(41, 41, 41);
     text-decoration: none;

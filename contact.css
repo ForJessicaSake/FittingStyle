@@ -32,6 +32,10 @@
      font-size: 22px;
  }
  
+ li {
+     margin: 0em 0.5em 0em 0.5em;
+ }
+ 
  .icons {
      display: flex;
      list-style: none;
