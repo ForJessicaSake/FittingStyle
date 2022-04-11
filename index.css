@@ -40,6 +40,10 @@
      gap: 2em;
  }
  
+ button a {
+     display: block;
+ }
+ 
  .modal {
      display: none;
      position: fixed;
@@ -49,26 +53,28 @@
      width: 40%;
      overflow: auto;
      background-color: rgba(41, 37, 37, 0.4);
- }
- 
- button a {
-     display: block;
+     border-radius: 5px;
  }
  
  .modal-content {
-     margin: 15% auto;
-     padding: 15px;
+     margin: 10% auto;
+     padding: 10px;
      border: 1px solid #fafafa;
      width: 90%;
      display: flex;
      background-color: #fafafa;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border-radius: 5px;
  }
  
  .modal-content button {
      background-color: red;
      padding: 5px;
      color: white;
+ }
+ 
+ button a {
+     display: block;
  }
  
  .close {
@@ -463,6 +469,7 @@
          width: 60%;
          overflow: auto;
          background-color: rgba(41, 37, 37, 0.4);
+         border-radius: 5px;
      }
      .home {
          background-image: linear-gradient( to right, #009688, #009688);
@@ -587,6 +594,7 @@
          width: 65%;
          overflow: auto;
          background-color: rgba(41, 37, 37, 0.4);
+         border-radius: 5px;
      }
      .home {
          background-image: linear-gradient( to right, #009688, #009688);
@@ -711,6 +719,7 @@
          width: 55%;
          overflow: auto;
          background-color: rgba(41, 37, 37, 0.4);
+         border-radius: 5px;
      }
      .landing-page {
          display: flex;
