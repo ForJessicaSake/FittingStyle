@@ -456,7 +456,7 @@
          z-index: 1;
          left: 0;
          top: 10%;
-         width: 50%;
+         width: 60%;
          overflow: auto;
          background-color: rgba(41, 37, 37, 0.4);
      }
@@ -580,7 +580,7 @@
          z-index: 1;
          left: 0;
          top: 10%;
-         width: 60%;
+         width: 65%;
          overflow: auto;
          background-color: rgba(41, 37, 37, 0.4);
      }

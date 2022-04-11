@@ -41,47 +41,6 @@ h2 {
     gap: 2em;
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 10%;
-    width: 40%;
-    height: 30%;
-    overflow: auto;
-    background-color: rgba(29, 28, 28, 0.4);
-}
-
-.modal-content {
-    margin: 10% auto;
-    padding: 20px;
-    border: 1px solid #fafafa;
-    width: 94%;
-    display: flex;
-    background-color: #fafafa;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.modal-content button {
-    background-color: red;
-    padding: 5px;
-    color: white;
-}
-
-.shopClose {
-    float: right;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.shopClose:hover,
-.shopClose:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 
 /*--------------------------------------------------------LANDING PAGE--------------------------------------------------------------*/
 
@@ -310,14 +269,14 @@ ul {
         padding: 0;
         overflow-x: hidden;
     }
-    /* .list {
+    .list {
         display: flex;
         list-style: none;
         gap: 5em;
     }
     .icons {
         display: none;
-    } */
+    }
     .big-box {
         padding-left: 150px;
     }
@@ -370,14 +329,14 @@ ul {
         padding: 0;
         overflow-x: hidden;
     }
-    /* .list {
+    .list {
         display: flex;
         list-style: none;
         gap: 5em;
     }
     .icons {
         display: none;
-    } */
+    }
     .big-box {
         padding-left: 150px;
     }
@@ -430,14 +389,14 @@ ul {
         padding: 0;
         overflow-x: hidden;
     }
-    /* .list {
+    .list {
         display: flex;
         list-style: none;
         gap: 5em;
     }
     .icons {
         display: none;
-    } */
+    }
     .big-box {
         padding-left: 35px;
     }
