@@ -83,6 +83,10 @@
      margin-top: 2%;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+ 
+ a {
+     color: black;
+ }
  /*--------------------------------------------------------FOOTER---------------------------------------------------------*/
  
  .footer {

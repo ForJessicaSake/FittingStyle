@@ -233,6 +233,11 @@
  .collection-image-two {
      width: 30%;
  }
+ 
+ button a {
+     text-decoration: none;
+     color: white;
+ }
  /*--------------------------------------------------------BLOGPAGE---------------------------------------------------------*/
  
  .blog-subtitle {
