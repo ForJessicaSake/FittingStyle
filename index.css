@@ -51,6 +51,10 @@
      background-color: rgba(41, 37, 37, 0.4);
  }
  
+ button a {
+     display: block;
+ }
+ 
  .modal-content {
      margin: 15% auto;
      padding: 15px;

@@ -60,6 +60,10 @@ h2 {
     color: rgb(39, 39, 39);
 }
 
+button a {
+    display: block;
+}
+
 .landing-text h1 {
     font-size: 85px;
     font-weight: lighter;

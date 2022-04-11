@@ -76,6 +76,10 @@
             margin-top: 7%;
         }
         
+        button a {
+            display: block;
+        }
+        
         .landing-page button a {
             color: white;
             text-decoration: none;
