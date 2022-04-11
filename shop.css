@@ -98,6 +98,20 @@ h2 {
     padding-left: 94px;
 }
 
+.box p {
+    width: 200px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.box p i {
+    color: #059286;
+}
+
+.box h4 i {
+    color: #059286;
+}
+
 .subtitle {
     display: flex;
     justify-content: center;

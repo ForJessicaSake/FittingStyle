@@ -113,6 +113,17 @@
      padding-left: 120px;
  }
  
+ .box img {
+     transition: 2s;
+     transition-delay: 0.001s;
+     border-radius: 12px;
+ }
+ 
+ .box img:hover {
+     transform: scale(1.1);
+     scroll-behavior: smooth;
+ }
+ 
  .display {
      width: 95%;
      margin-left: 4%;
@@ -132,6 +143,20 @@
      width: 200px;
      text-align: center;
      line-height: 1.5;
+ }
+ 
+ .box p {
+     width: 200px;
+     text-align: center;
+     line-height: 1.5;
+ }
+ 
+ .box p i {
+     color: #059286;
+ }
+ 
+ .box h4 i {
+     color: #059286;
  }
  
  .box span {
