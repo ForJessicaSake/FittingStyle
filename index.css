@@ -113,14 +113,18 @@
      padding-left: 120px;
  }
  
+ .box {
+     margin-top: 5%;
+ }
+ 
  .box img {
      transition: 2s;
      transition-delay: 0.001s;
-     border-radius: 12px;
+     border-radius: 7px;
  }
  
  .box img:hover {
-     transform: scale(1.1);
+     transform: scale(1.05);
      scroll-behavior: smooth;
  }
  
@@ -156,7 +160,7 @@
  }
  
  .box h4 i {
-     color: #059286;
+     color: #047065;
  }
  
  .box span {
@@ -168,7 +172,6 @@
  }
  
  .newArrivals-row-two {
-     margin-top: 3%;
      margin-right: 2%;
      --num-cols: 4;
      box-sizing: border-box;
@@ -264,6 +267,10 @@
      color: white;
  }
  /*--------------------------------------------------------BLOGPAGE---------------------------------------------------------*/
+ 
+ .blog {
+     margin-bottom: 2%;
+ }
  
  .blog-subtitle {
      text-align: center;
@@ -458,10 +465,10 @@
          width: 400px;
      }
      .collection-text-two h1 {
-         font-size: 80px;
+         font-size: 90px;
          margin-top: 4%;
          text-align: center;
-         width: 156%;
+         width: 140%;
      }
      .collection-text-two p {
          width: 145%;
@@ -497,6 +504,13 @@
          text-align: center;
          line-height: 1.5;
          font-size: 25px;
+         font-weight: normal;
+     }
+     .box p {
+         width: 300px;
+         text-align: center;
+         line-height: 1.5;
+         font-size: 20px;
          font-weight: normal;
      }
      .newArrivals-row-one img {
@@ -548,6 +562,13 @@
      .big-box {
          padding-left: 0px;
      }
+     .box p {
+         width: 300px;
+         text-align: center;
+         line-height: 1.5;
+         font-size: 20px;
+         font-weight: normal;
+     }
      .display {
          width: 95%;
          margin-left: 10%;
@@ -595,10 +616,10 @@
          width: 400px;
      }
      .collection-text-two h1 {
-         font-size: 80px;
+         font-size: 90px;
          margin-top: 4%;
          text-align: center;
-         width: 155%;
+         width: 140%;
      }
      .collection-text-two p {
          width: 145%;
@@ -680,7 +701,7 @@
          font-size: 80px;
          margin-top: 4%;
          text-align: center;
-         width: 155%;
+         width: 135%;
      }
      .collection-text-two p {
          width: 145%;

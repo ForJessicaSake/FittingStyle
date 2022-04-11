@@ -98,6 +98,17 @@ h2 {
     padding-left: 94px;
 }
 
+.box img {
+    transition: 2s;
+    transition-delay: 0.001s;
+    border-radius: 7px;
+}
+
+.box img:hover {
+    transform: scale(1.05);
+    scroll-behavior: smooth;
+}
+
 .box p {
     width: 200px;
     text-align: center;
@@ -109,7 +120,7 @@ h2 {
 }
 
 .box h4 i {
-    color: #059286;
+    color: #047065;
 }
 
 .subtitle {
@@ -139,6 +150,10 @@ h2 {
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     gap: var(--gap);
+}
+
+.box {
+    margin-top: 4%;
 }
 
 .box h4 {
@@ -178,6 +193,7 @@ h2 {
     color: rgb(192, 190, 190);
     background-color: rgb(27, 27, 27);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3%;
 }
 
 .head {
