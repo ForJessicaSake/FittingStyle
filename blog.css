@@ -190,7 +190,10 @@
         
         .head p {
             display: flex;
-            gap: 1.5em;
+        }
+        
+        .head p i {
+            margin: 0em 0.7em 0em 0.7em;
         }
         
         .head a {

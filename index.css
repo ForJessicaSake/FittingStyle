@@ -156,10 +156,7 @@ button a {
 
 .subtitle {
     display: flex;
-    justify-content: center;
-    margin: 0em 0.9em 0em 0.9em;
-
-
+    justify-content: space-evenly;
 }
 
 .subtitle h1 {
@@ -428,7 +425,10 @@ button a {
 
 .head p {
     display: flex;
-    gap: 1.5em;
+}
+
+.head p i {
+    margin: 0em 0.7em 0em 0.7em;
 }
 
 .head a {
@@ -465,8 +465,12 @@ button a {
 .footer ul {
     list-style: none;
     display: flex;
-    margin: 0em 0.5em 0em 0.5em;
 }
+
+
+/* .footer ul li {
+    margin: 0em 0.7em 0em 0.7em;
+} */
 
 
 /*=======================================================MEDIAQUERIES==========================================================*/
@@ -594,8 +598,8 @@ button a {
     .footer {
         padding: 15px;
     }
-    button{
-       width: 200px;
+    button {
+        width: 200px;
     }
 }
 
@@ -719,11 +723,9 @@ button a {
     .footer {
         padding: 15px;
     }
-
-     button{
-       width: 200px;
+    button {
+        width: 200px;
     }
-
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -808,9 +810,7 @@ button a {
     .footer {
         padding: 20px;
     }
-
-    button{
-       width: 200px;
+    button {
+        width: 200px;
     }
-
 }

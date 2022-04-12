@@ -70,6 +70,7 @@
      font-weight: lighter;
      margin-bottom: 2%;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
  }
  
  .landing-text h4 {
@@ -82,8 +83,7 @@
  
  .landing-text h3 {
      margin-left: 1%;
-     font-weight: normal;
-     font-size: 16px;
+     font-size: 14.5px;
      margin-top: 2%;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
@@ -126,7 +126,10 @@
  
  .head p {
      display: flex;
-     gap: 1.5em;
+ }
+ 
+ .head p i {
+     margin: 0em 0.7em 0em 0.7em;
  }
  
  .head a {
@@ -193,7 +196,7 @@
      }
      .landing-page-image {
          align-self: center;
-         width: 600px;
+         width: 900px;
      }
      .footer {
          padding: 40px;
@@ -226,7 +229,7 @@
      }
      .landing-page-image {
          align-self: center;
-         width: 800px;
+         width: 1000px;
      }
      .footer {
          padding: 25px;
@@ -259,7 +262,7 @@
      }
      .landing-page-image {
          align-self: center;
-         width: 700px;
+         width: 1000px;
      }
      .footer {
          padding: 40px;

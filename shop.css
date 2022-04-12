@@ -133,8 +133,7 @@ button a {
 
 .subtitle {
     display: flex;
-    justify-content: center;
-    gap: 3em;
+    justify-content: space-evenly;
 }
 
 .subtitle h1 {
@@ -226,7 +225,10 @@ button a {
 
 .head p {
     display: flex;
-    gap: 1.5em;
+}
+
+.head p i {
+    margin: 0em 0.7em 0em 0.7em;
 }
 
 .head a {
