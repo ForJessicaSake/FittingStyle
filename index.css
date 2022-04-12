@@ -462,10 +462,10 @@ button a {
     word-spacing: 0.1em;
 }
 
-ul {
+.footer ul {
     list-style: none;
     display: flex;
-    gap: 4em;
+    margin: 0em 0.5em 0em 0.5em;
 }
 
 
@@ -594,6 +594,9 @@ ul {
     .footer {
         padding: 15px;
     }
+    button{
+       width: 200px;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -716,6 +719,11 @@ ul {
     .footer {
         padding: 15px;
     }
+
+     button{
+       width: 200px;
+    }
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -800,4 +808,9 @@ ul {
     .footer {
         padding: 20px;
     }
+
+    button{
+       width: 200px;
+    }
+
 }
