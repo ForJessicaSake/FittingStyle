@@ -193,14 +193,16 @@
      }
      .landing-text {
          width: 100%;
-         margin-top: 10%;
+         margin-top: 15%;
+         padding: 65px;
      }
      .landing-page-image {
          align-self: center;
-         width: 900px;
+         width: 700px;
+         margin-top: 8%;
      }
      .footer {
-         padding: 40px;
+         padding: 50px;
      }
  }
  
@@ -227,13 +229,15 @@
      .landing-text {
          width: 100%;
          padding-top: 15%;
+         padding: 60px;
+         margin-top: 10%;
      }
      .landing-page-image {
          align-self: center;
-         width: 1000px;
+         width: 670px;
      }
      .footer {
-         padding: 25px;
+         padding: 45px;
      }
  }
  
