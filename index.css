@@ -157,7 +157,9 @@ button a {
 .subtitle {
     display: flex;
     justify-content: center;
-    gap: 3em;
+    margin: 0em 0.9em 0em 0.9em;
+
+
 }
 
 .subtitle h1 {
