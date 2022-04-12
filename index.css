@@ -179,6 +179,7 @@ button a {
     transition: 2s;
     transition-delay: 0.001s;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .box img:hover {

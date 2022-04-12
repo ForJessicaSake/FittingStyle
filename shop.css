@@ -88,6 +88,7 @@ button a {
     background-color: #059286;
     font-weight: bold;
     border: 0px;
+    cursor: pointer;
 }
 
 .landing-page button a {
@@ -110,6 +111,7 @@ button a {
     transition: 2s;
     transition-delay: 0.001s;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .box img:hover {
@@ -243,6 +245,7 @@ button a {
     background-color: #009688;
     color: white;
     border: 0px;
+    cursor: pointer;
 }
 
 .middle {
