@@ -756,7 +756,7 @@ button a {
         flex-direction: column;
     }
     .landing-page p {
-        width: 135%;
+        width: 130%;
         font-size: 18px;
     }
     .landing-page button {
@@ -769,6 +769,28 @@ button a {
     }
     .big-box {
         padding-left: 10px;
+    }
+    .display {
+        width: 95%;
+        margin-left: 13%;
+    }
+    .newArrivals-row-one {
+        --num-cols: 2;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: var(--gap);
+        display: grid;
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        gap: var(--gap);
+    }
+    .newArrivals-row-two {
+        --num-cols: 2;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: var(--gap);
+        display: grid;
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        gap: var(--gap);
     }
     .collection {
         display: flex;
@@ -814,4 +836,9 @@ button a {
     button {
         width: 200px;
     }
+}
+
+.h1 {
+    text-align: ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
