@@ -599,9 +599,6 @@ button a {
     .footer {
         padding: 15px;
     }
-    button {
-        width: 200px;
-    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
@@ -724,9 +721,6 @@ button a {
     .footer {
         padding: 15px;
     }
-    button {
-        width: 200px;
-    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -832,9 +826,6 @@ button a {
     }
     .footer {
         padding: 20px;
-    }
-    button {
-        width: 200px;
     }
 }
 
